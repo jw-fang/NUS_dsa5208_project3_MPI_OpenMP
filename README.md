@@ -6,6 +6,7 @@ For NUS DSA5208 Project 3 submission. Before proceeding, unzip all of the zipped
 Source code for logistic regression:
 - lr_longdouble.cpp - CPU implementation
 - lr_GPU_longdouble.cpp - GPU implementation
+  
 -- include folder includes the external packages used for this executable
 
 Batch files:
@@ -14,7 +15,9 @@ Batch files:
 -- compilation_gpu.sh - GPU compilation
 
 - batch_run.sh - to batch qsub the jobs
+  
 -- execute_*.sh - CPU supporting sh 
+
 -- execute_GPU_*.sh - GPU supporting sh 
 
 Compiled executable:
