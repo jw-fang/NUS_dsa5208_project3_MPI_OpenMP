@@ -14,8 +14,8 @@ Batch files:
 -- compilation_gpu.sh - GPU compilation
 
 - batch_run.sh - to batch qsub the jobs
---execute_*.sh - CPU supporting sh 
---execute_GPU_*.sh - GPU supporting sh 
+-- execute_*.sh - CPU supporting sh 
+-- execute_GPU_*.sh - GPU supporting sh 
 
 Compiled executable:
 - logistic_newton - CPU implementation
@@ -63,22 +63,28 @@ Arguements with values were default values. The argument description were as fol
 ## Arguments
 
 ```mode=("training", "fit")```
--Training to start the training of the model, fit to predict the labels
--If ‘fit’ is set, the rest of the arguments were ignored
--Compulsory to input the keywords
+
+- Training to start the training of the model, fit to predict the labels
+- If ‘fit’ is set, the rest of the arguments were ignored
+- Compulsory to input the keywords
 
 ```iter=Integer```	
--Maximum number of iterations
+
+- Maximum number of iterations
 
 ```l2=Float```
--L2 regularisation strength
+
+- L2 regularisation strength
 
 ```tol=Float```
--Tolerance, threshold for convergence
+
+- Tolerance, threshold for convergence
 
 ```path=string```
--Path to the excel csv
+
+- Path to the excel csv
 
 ```output_folder=string```
+
 - Path to output folder
 
