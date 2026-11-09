@@ -11,7 +11,9 @@ Source code for logistic regression:
 
 Batch files:
 - queue_compilation.sh - to compile the executable on HPC
+  
 -- compilation_cpu.sh - CPU compilation
+  
 -- compilation_gpu.sh - GPU compilation
 
 - batch_run.sh - to batch qsub the jobs
