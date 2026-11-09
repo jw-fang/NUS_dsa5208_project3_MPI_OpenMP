@@ -1,7 +1,7 @@
 # NUS_dsa5208_project3_MPI_OpenMP
 For NUS DSA5208 Project 3 submission. Before proceeding, unzip all of the zipped and 7z files before continuing.
 
-##Essential files:
+## Essential files:
 
 Source code for logistic regression:
 - lr_longdouble.cpp - CPU implementation
@@ -35,7 +35,7 @@ Python scripts:
 - data_processing.py - data cleanup for graph generation and statistical analysis
 
 
-##1) Compilation
+## 1) Compilation
 The executables had been pre-compiled on Vanda server. If interested to recompile however,
 excute the bash code in HPC. It will excute qsub for compilation_cpu.sh and compilation_gpu.sh
 
@@ -44,7 +44,7 @@ bash queue_compilation.sh
 ```
 
 
-##2) Execution
+## 2) Execution
 
 ```
 bash batch_run.sh
@@ -60,7 +60,7 @@ logistic_newton_GPU mode= iter=1000 l2=1 tol=1e-4 path="./processed.csv" output_
 
 Arguements with values were default values. The argument description were as follows:
 
-##Arguments
+## Arguments
 
 mode=("training", "fit")
 -Training to start the training of the model, fit to predict the labels
